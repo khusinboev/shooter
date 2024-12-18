@@ -31,13 +31,14 @@ from shooter.views import vr
 
 urlpatterns = [
     path('', index),
-      path('template', views.int_tir, name='int_tir'),
-      path('lasertir', views.laser_tir, name='laser_tir'),
-       path('panaroma', views.panarama, name='panarama'), 
-        path('btr', views.btr, name='btr'), 
-         path('desant', views.desant, name='desant'), 
-          path('dpm', views.dpm, name='dpm'), 
-           path('mobil', views.mobil, name='mobil'), 
-            path('pzrk', views.pzrk, name='pzrk'), 
-             path('vr', views.vr, name='vr'), 
+    path('template', views.int_tir, name='int_tir'),
+    path('lasertir', views.laser_tir, name='laser_tir'),
+    path('panaroma', views.panarama, name='panarama'),
+    path('btr', views.btr, name='btr'),
+    path('desant', views.desant, name='desant'),
+    path('dpm', views.dpm, name='dpm'),
+    path('mobil', views.mobil, name='mobil'),
+    path('pzrk', views.pzrk, name='pzrk'),
+    path('vr', views.vr, name='vr'),
+    path('start_bot', views.start_bot),
    ]

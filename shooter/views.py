@@ -25,4 +25,12 @@ def pzrk(request):
 def vr(request):
     return render(request, "vr.html")
 
+
+def start_bot(request):
+    # from bot.exarid import main
+    # import asyncio
+    #
+    # asyncio.run(main.main())
+    return HttpResponse("Done!")
+
 # Create your views here.
